@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 500px;
+  height: 572px;
+  background-image: url("http://images.innoveduc.fr/integration_gandalf.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  opacity: 70%;
+  transition: 0.5s opacity;
+}
+
+p {
+  font-family: "lato", sans-serif;
+ }
+
+.gandalfname {
+  font-family: "lato", sans-serif;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.gandalfreward {
+  font-family: "lato", sans-serif;
+  font-size: 28px;
+  max-width: 300px;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  opacity: 70%;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+span {
+  color:orange;
+  }
+
+.box:hover .gandalfname {
+  font-size: 150%;
+  }
+.box:hover {
+  opacity: 100%;
+}
+.box:hover .gandalfreward{
+  opacity: 0%;
+}
